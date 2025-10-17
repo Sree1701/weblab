@@ -29,8 +29,7 @@ height:90vh;
 margin-top:20px;
 margin-right:10px;
   margin-left: 210px;
-  padding: 20px;
-  padding: 20px;             
+  padding: 20px;            
   border: 2px solid black;
 }
 
@@ -38,9 +37,6 @@ margin-right:10px;
   font-size: 28px;
   font-weight: bold;
 }
-.box {
-      
-    }
 .content p {
   font-size: 16px;
   text-align: justify;
