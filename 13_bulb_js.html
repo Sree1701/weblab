@@ -1,0 +1,52 @@
+<html>
+<body>
+<style>
+   body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      margin: 0;
+    }
+    .box {
+      background-color: black;
+      width: 400px;
+      height: 400px;
+      text-align: center;
+      color: white;
+      padding-top: 20px;
+    }
+    button {
+      background-color: yellow;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+</style>
+<script>
+function light(c) {
+  var pic;
+  if (c == 0) {
+    pic = "/home/user/Pictures/bulb_off.jpg"
+  } else {
+    pic = "/home/user/Pictures/bulb_on.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+<div  class="box">
+<center>
+<h2>Java Script Bulb</h2>
+<img id="myImage" src="/home/user/Pictures/bulb_off.jpg" width="200" height="300">
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+</center>
+</div>
+</body>
+</html>
+
