@@ -7,7 +7,6 @@
             color: red;
             font-size: 12px;
         }
-        
     </style>
 </head>
 <body>
@@ -173,7 +172,6 @@
 <script>
 function validateForm() {
     let isValid = true;
-
     // First Name
     let namePattern = /^[A-Za-z]+$/;
 if (fname.value.trim() === "") {
@@ -224,7 +222,6 @@ if (dob.value === "") {
         dobError.textContent = "";
     }
 }
-
     // Mobile Number
     let mobile = document.getElementById("mobile");
     let mobileError = document.getElementById("mobileError");
@@ -260,7 +257,6 @@ if (dob.value === "") {
     } else {
         passwordError.textContent = "";
     }
-    
     // Qualification
     let boardInputs = document.querySelectorAll(".board");
     let percentInputs = document.querySelectorAll(".percent");

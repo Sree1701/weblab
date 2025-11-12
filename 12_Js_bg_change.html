@@ -1,19 +1,18 @@
 <html>
 <head>
-<title>Background using JavaScript</title>
+    <title>Change Background Color</title>
 </head>
 <body>
-<button id="button">Change Background Color</button>
-<script>
-let count = 0;
-document.getElementById("button").("click", function () {
-count++;
-if (count==1){
-document.body.style.backgroundColor = "red";
-}else if(count == 2){
-document.body.style.backgroundColor = "green";
-}
-});
-</script>
+    <button id="button">Change Background Color</button>
+    <script>
+        const btn = document.getElementById("button");
+        btn.addEventListener("click", function () {
+            document.body.style.backgroundColor = "red";
+        });
+        btn.addEventListener("dblclick", function () {
+            document.body.style.backgroundColor = "green";
+        });
+    </script>
 </body>
 </html>
+
