@@ -31,9 +31,9 @@
 function light(c) {
   var pic;
   if (c == 0) {
-    pic = "/home/user/Pictures/bulb_off.jpg"
+    pic = "https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"
   } else {
-    pic = "/home/user/Pictures/bulb_on.jpg"
+    pic = "https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg"
   }
   document.getElementById('myImage').src = pic;
 }
@@ -41,7 +41,7 @@ function light(c) {
 <div  class="box">
 <center>
 <h2>Java Script Bulb</h2>
-<img id="myImage" src="/home/user/Pictures/bulb_off.jpg" width="200" height="300">
+<img id="myImage" src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" width="200" height="300">
 <p>
 <button type="button" onclick="light(1)">Light On</button>
 <button type="button" onclick="light(0)">Light Off</button>
